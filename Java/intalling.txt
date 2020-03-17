@@ -1,0 +1,22 @@
+video 11
+
+installing amazon Corretto - JDK
+
+https://aws.amazon.com/corretto/
+
+C:\Program Files\Amazon Corretto
+
+java -vertion
+
+https://www.jetbrains.com/
+
+https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC
+
+video 17
+Configure
+
+link the right JDK
+
+then go settings
+edtitor
+general

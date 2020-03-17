@@ -1,0 +1,33 @@
+the public java keyword is an access modifier. An access modfier allows us 
+to define the scope or how other parts of your code even some else's code can access this code
+more on that later.
+
+class is used to define a class with the name following the keyword 
+
+
+to define a class we need an access modfier at the start. the {} define the class body
+
+
+What is a method?
+    a colelction of statements (one or more) that perform an operation.
+
+
+public class Hello {
+    
+    public static void main(String[] args) {
+        
+    }
+}
+
+static?
+
+void? return nothing
+
+
+Variables are a way to store information in our computer
+varuables that we dafine in a program can be accessed by a name we give them.
+
+Declaration statement
+variables have to be initiallised before used
+
+An expression is contruct that evaulates to a single value
