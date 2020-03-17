@@ -1,0 +1,95 @@
+V24
+
+in java theres a minimum and maximum number that can be stored in an int
+
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int myValue = 10000;
+
+        int myMinIntValue = Integer.MIN_VALUE;
+        int myMaxIntValue = Integer.MAX_VALUE;
+        System.out.println("Interger Minimum = " + myMinIntValue);
+        System.out.println("Interger Manimum = " + myMaxIntValue);
+
+    }
+}
+
+What ever follows the plus operator gets converted into a string
+
+int only lets us set the variables a Value
+
+Integer is a wrapper class
+This gives us ways to perform operations on an int
+
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int myValue = 10000;
+
+        int myMinIntValue = Integer.MIN_VALUE;
+        int myMaxIntValue = Integer.MAX_VALUE;
+        System.out.println("Integer Minimum = " + myMinIntValue);
+        System.out.println("Integer Maximum = " + myMaxIntValue);
+        System.out.println("Busted Max value" + (myMaxIntValue + 1));
+    }
+}
+
+ 
+when you add a number to the max possible interger it results in a overflow
+
+If you try and put a larger than the maximum value in java, or a value smaller than
+the maximum value in java, then you will get an overflow in the case of the maximum
+vlaue or an underflow in the case of the minimum.
+
+
+its a programmers responsibility to ensure that we're using the
+appropriate data type and what were trying to store within that data type
+is within the range of the limits
+
+
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int myValue = 10000;
+
+        int myMinIntValue = Integer.MIN_VALUE;
+        int myMaxIntValue = Integer.MAX_VALUE;
+        System.out.println("Integer Minimum = " + myMinIntValue);
+        System.out.println("Integer Maximum = " + myMaxIntValue);
+        System.out.println("Busted Max value = " + (myMaxIntValue + 1));
+        System.out.println("Busted Min value = " + (myMinIntValue - 1));
+        int underTest = 2_147_483_647;
+        System.out.println(underTest);
+    }
+}
+
+you can put underscore in an int as a comma, doens't effect the code.
+
+Byte
+
+The smaller data type takes up less space and could be easier to access
+
+
+Byte takes 8 bits. Has a width of 8.
+short occupies 16 bits and has a width of 16
+int has a much larger range of 32 bits and has a width of 32.
+long has a width of 64bits so double the width of an int
+
+
+Csting in java
+means to treat or convert a number from one type to another. We put the type
+we want the number to be in parethesis like this:
+(byte) (myMinByteValue/2);
+other programming languages have this also, its not just java
+
+java uses int by default

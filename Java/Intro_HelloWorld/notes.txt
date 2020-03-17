@@ -30,4 +30,14 @@ varuables that we dafine in a program can be accessed by a name we give them.
 Declaration statement
 variables have to be initiallised before used
 
-An expression is contruct that evaulates to a single value
+An expression is contruct that evaulates to a single valueg
+
+Primitive types are the most basic data types. There are 8 primitive types
+these are:
+boolean,  byte, char, short, int, long, float, double
+
+
+video 24:
+What is a package. Its a way to organise your hava projects
+its like folders. Companies use their domain names reversed.
+

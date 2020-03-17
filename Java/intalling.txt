@@ -20,3 +20,7 @@ link the right JDK
 then go settings
 edtitor
 general
+
+
+
+
