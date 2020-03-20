@@ -1,0 +1,12 @@
+Strings is a datatype in Java, which is not a primitive type.
+Its actually a class, but is easier to use than other classes.
+
+A String is a sequence of characters.
+
+Strings in java are immutable
+
+
+The code we used to append strings was inefficient.
+append values is very inefficient. 
+A better way of doing this is called a StringButter.
+

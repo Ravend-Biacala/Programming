@@ -86,10 +86,42 @@ int has a much larger range of 32 bits and has a width of 32.
 long has a width of 64bits so double the width of an int
 
 
-Csting in java
+Casting in java
 means to treat or convert a number from one type to another. We put the type
 we want the number to be in parethesis like this:
 (byte) (myMinByteValue/2);
 other programming languages have this also, its not just java
 
 java uses int by default
+
+V28
+
+Floats
+
+Float and double
+
+Percision refers to the format and amount of space occupied by the type.
+Single precision occupies  32 bits (so has a width of 32) abd a double 
+precision occupies 64 bits (thus has a width of 64)
+
+
+floats are not normally used
+When in decimal double is the default
+
+the double is faster to process, java librarys are processed to process double not Floats
+more precise and store more numbers.
+
+Fload and double are not great for precide calculations are required.
+
+Java has a class called bug Decimal that overcomes this.
+
+
+
+Char occupies of two bytes in memory, so 16 bits thus width of 16.
+This allows you to store unicode
+
+unicode is an international encoding stantard to use with different languages and scripts
+
+
+
+A boolean value a primitive type that allows for two choices

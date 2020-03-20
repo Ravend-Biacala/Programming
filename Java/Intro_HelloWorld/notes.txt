@@ -41,3 +41,4 @@ video 24:
 What is a package. Its a way to organise your hava projects
 its like folders. Companies use their domain names reversed.
 
+know the Naming Conventions

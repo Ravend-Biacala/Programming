@@ -1,0 +1,62 @@
+An operand is a term used to describe any object that is manipulated by an operator
+
+everything same as any other language
+
+modulus operator is important
+(4 % 3 ) == 1
+
+this gets the remainder after the division
+
+abbreviating operators
+
+result++
+result--
+
+result += 2
+
+Conditional statements
+
+        if (isAlien == false)
+            System.out.println("it is not an Alien");
+
+
+Watch out for putting a semicolon after an if statement cuz is closes our that code and won't follow thorugh on whats underneath
+
+if we don't use a code block, only allows on line of statement to execute
+
+So just always use a code block
+
+Logicical operators
+
+>=
+=
+>
+<=
+!=
+
+&&           // stands for and, the logical and operator
+||           // stands of or // thats two amperstands
+
+bitwise operators? & // we don't usually use.
+
+
+operator precedence
+
+Assignment and Equals to operator 
+= and ==
+Assigning and testing
+
+
+V38
+Ternary operator
+
+int ageOfClient = 20;
+Boolean isEighteenOfOver = (ageOfClient == 20) ? true : false;
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html
+summary of operators
+
+
+instance of operator ???
+
+
