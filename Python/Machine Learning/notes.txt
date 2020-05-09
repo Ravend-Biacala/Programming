@@ -1,0 +1,15 @@
+links
+
+https://sdsclub.com/learning-paths/data-scientist/
+
+https://www.dropbox.com/s/py3ns8ltraoexfi/Youtube%20-%20Regression%20-%20Video%20Exp%20%232.mov?dl=0
+
+
+goodgle colaboratory is pretty cool
+
+
+https://stackoverflow.com/questions/39031796/how-to-run-current-line-in-spyder-3-5-ctrl-f10-not-working
+
+
+https://cran.r-project.org/
+

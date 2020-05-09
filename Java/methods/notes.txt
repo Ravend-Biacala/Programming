@@ -1,0 +1,4 @@
+// method notes
+
+// you can't put a method within another method
+

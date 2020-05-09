@@ -1,2 +1,3 @@
 1) Do not give a file a funtion name or else it will break. Eg string or String or char
 2) you can have the same variables named to same
+3) Naming packages with a number besite either an underscore or a dot gives an error

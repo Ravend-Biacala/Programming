@@ -1,0 +1,28 @@
+
+// Printing
+// you can print like this
+// vid 44
+System.out.println("this us is a" +
+    " another " +
+    "test theres still more");
+
+
+// statements without newline characters and indentations
+// can put on the same line
+// the -- is an abbreviating operators
+int variable = 50; variable--;
+
+// same with this 
+
+int           variable
+    =
+    50
+    ;
+
+
+// defining values
+
+int score = 50;
+score = 100; // we can change the values.
+
+

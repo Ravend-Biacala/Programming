@@ -60,3 +60,19 @@ summary of operators
 instance of operator ???
 
 
+
+statements cannot be called inside a code block
+but vabriables can be accessed inside the code block.
+
+// if statements
+if (condition) {
+    // insert code
+} else if {
+    // insert code
+} else {
+    // insert code
+}
+
+
+
+
