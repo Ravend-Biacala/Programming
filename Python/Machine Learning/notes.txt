@@ -7,9 +7,15 @@ https://www.dropbox.com/s/py3ns8ltraoexfi/Youtube%20-%20Regression%20-%20Video%2
 
 goodgle colaboratory is pretty cool
 
-
+==========================
 https://stackoverflow.com/questions/39031796/how-to-run-current-line-in-spyder-3-5-ctrl-f10-not-working
+The key to run the current line by itself is F9. The shortcut ctrl+F10 is used if you are in debugging mode.
 
+You can see a list of shortcuts by selecting Preferences in the Tool menu, and then clicking on Keyboard shortcuts.
+=========================
 
 https://cran.r-project.org/
 
+
+
+https://www.anaconda.com/products/individual#windows

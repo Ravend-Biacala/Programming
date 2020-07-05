@@ -1,0 +1,537 @@
+analyse documents from the new sharepoint sites and ensure they do not contain references to the old document central sites
+
+create a jupyter notebook that will iterate through each document and find references
+of the document central hyperlinks
+
+
+output the filename and working library and sub-folder in a text file when you find a references
+
+
+================
+https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory
+
+
+
+================
+glob - match specific patterns
+
+https://www.poftut.com/python-glob-function-to-match-path-directory-file-names-with-examples/
+
+glob is a general term used to define techniques to match specified patterns according to rules related to Unix shell. Linux and Unix systems and shells also support glob and also provide function glob() in system libraries. In this tutorial, we will look glob() function usage in Python programming language
+
+================
+Directory-tree listing in Python
+
+https://stackoverflow.com/questions/120656/directory-tree-listing-in-python
+
+
+=================
+
+https://stackabuse.com/reading-and-writing-ms-word-files-in-python-via-python-docx-module/
+https://www.google.com/search?q=aws+s3fs+documentation&oq=aws+s3fs&aqs=chrome.1.69i57j0l7.3411j0j7&sourceid=chrome&ie=UTF-8
+
+
+=======================
+https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-add-external.html
+https://www.edureka.co/community/17558/python-aws-boto3-how-do-i-read-files-from-s3-bucket
+
+
+
+====================
+how to get stuff from s3
+
+https://stackoverflow.com/questions/48264656/load-s3-data-into-aws-sagemaker-notebook
+
+
+========================
+get name from the current script
+
+https://stackoverflow.com/questions/4152963/get-name-of-current-script-in-python
+
+===========================
+
+date time
+https://docs.python.org/3.4/library/datetime.html
+
+=======================
+check if directory exists
+https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory
+https://www.geeksforgeeks.org/python-check-if-a-file-or-directory-exists-2/
+
+
+
+import os
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+=========================
+print all files in a directory
+https://www.tutorialspoint.com/python/os_walk.htm
+https://stackoverflow.com/questions/120656/directory-tree-listing-in-python
+
+
+https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory
+x = [os.path.join(r,file) for r,d,f in os.walk("F:\\_python") for file in f]
+print(x)
+
+>>> ['F:\\_python\\dict.py', 'F:\\_python\\progr.txt', 'F:\\_python\\readl.py']
+
+==================================
+
+installing python docx
+
+https://python-docx.readthedocs.io/en/latest/user/install.html
+
+
+https://python-docx.readthedocs.io/en/latest/user/install.html
+
+
+https://stackoverflow.com/questions/25228106/how-to-extract-text-from-an-existing-docx-file-using-python-docx
+
+=================================
+
+Jupyter Notebooks
+
+https://github.com/ipython/ipython/issues/6157
+
+================================
+
+installing pandas
+
+pip install pandas
+
+https://datatofish.com/read_excel/
+
+https://stackoverflow.com/questions/42907331/how-to-install-pandas-from-pip-on-windows-cmd
+
+
+https://medium.com/analytics-vidhya/how-to-extract-information-from-your-excel-sheet-using-python-5f4f518aec49
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
+
+https://realpython.com/python-csv/
+
+https://stackoverflow.com/questions/53325573/python-getting-exact-cell-from-csv-file
+
+https://openpyxl.readthedocs.io/en/stable/pandas.html
+
+https://www.dataquest.io/blog/excel-and-pandas/
+
+================================
+
+
+install powerpoint reader
+
+pip install python-pptx
+
+https://python-pptx.readthedocs.io/en/latest/user/install.html
+
+https://stackoverflow.com/questions/27843018/read-from-powerpoint-table-in-python
+
+https://stackoverflow.com/questions/45400100/python-3-6-extracting-text-from-ppt-files
+
+https://stackoverflow.com/questions/13559133/how-to-open-ppt-file-using-python
+
+how it works
+
+https://python-pptx.readthedocs.io/en/latest/dev/analysis/shp-hyperlink.html
+
+
+https://python-pptx.readthedocs.io/en/latest/api/slides.html
+
+https://www.youtube.com/watch?v=amJBGQIRg1w
+
+
+https://python-pptx.readthedocs.io/en/latest/dev/analysis/shp-hyperlink.html
+
+
+https://python-pptx.readthedocs.io/en/latest/api/enum/PpActionType.html
+
+
+===============================
+pdf reader
+
+https://www.codespeedy.com/read-pdf-file-in-python-line-by-line/
+https://www.geeksforgeeks.org/working-with-pdf-files-in-python/
+https://realpython.com/pdf-python/
+
+https://medium.com/better-programming/how-to-convert-pdfs-into-searchable-key-words-with-python-85aab86c544f
+
+https://stackoverflow.com/questions/22106380/how-do-i-install-pypdf2-module-using-windows
+
+https://pythonhosted.org/PyPDF2/search.html?q=getObject%28%29&check_keywords=yes&area=default
+
+================================
+xml reader
+
+https://stackoverflow.com/questions/20284604/how-to-install-xml-dom-minidom-in-python
+
+
+https://stackabuse.com/reading-and-writing-xml-files-in-python/
+
+https://stackoverflow.com/questions/28194703/recursive-xml-parsing-python-using-elementtree/28195289
+
+https://books.google.ie/books?id=_g6fDwAAQBAJ&pg=PA298&lpg=PA298&dq=python+xml+read+all+sub+elements+recursively&source=bl&ots=X4PJC1iNZu&sig=ACfU3U0CJSzQMYlRnrATloprYh8JPWtMjg&hl=en&sa=X&ved=2ahUKEwiNgr2voa_pAhXzpHEKHRfwA0cQ6AEwBnoECAoQAQ#v=onepage&q=python%20xml%20read%20all%20sub%20elements%20recursively&f=false
+
+https://www.datacamp.com/community/tutorials/python-xml-elementtree
+
+https://docs.python.org/2/library/xml.etree.elementtree.html
+
+https://docs.python.org/3.4/library/xml.etree.elementtree.html
+
+https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms762271(v%3Dvs.85)
+
+
+https://stackoverflow.com/questions/20284604/how-to-install-xml-dom-minidom-in-python
+
+Ahh, you don't need PyXML to use it, it's included in the standard library.
+
+>>> import xml.dom.minidom
+>>> help(xml.dom.minidom)
+
+
+https://docs.python.org/3/library/html.parser.html
+================================
+
+https://stackoverflow.com/questions/34286022/python-how-to-read-html-line-by-line
+
+read html file
+
+with open("/home/tony/Downloads/page1/test.html", "r") as f:
+    for line in f.readlines():
+        print(line) # The newline is included in line
+
+
+https://stackoverflow.com/questions/328356/extracting-text-from-html-file-using-python
+
+=========================
+
+hyperinks analyser
+
+https://stackoverflow.com/questions/40475757/how-to-extract-the-url-in-hyperlinks-from-a-docx-file-using-python
+
+for rel in rels:
+   if rels[rel].reltype == RT.HYPERLINK:
+      print("\n Origianl link id -", rel, "with detected URL: ", rels[rel]._target)
+      new_url=input(" Pls input new URL: ")
+      rels[rel]._target=new_url
+
+=============
+
+word document = 
+excel = pandas
+powerpoint = pptx
+pdf files = PyPDF2
+text files = work the same way
+Html files = work the same way
+XML files = xml.dom.minidom
+
+
+=====================
+
+jupyter
+
+https://www.youtube.com/watch?v=RlwPBT4Uqhw
+
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+
+https://stackoverflow.com/questions/48946639/how-to-create-and-open-a-jupyter-notebook-ipynb-file-directly-from-terminal
+
+
+https://stackoverflow.com/questions/12544056/how-do-i-get-the-current-ipython-jupyter-notebook-name
+
+https://ipython.readthedocs.io/en/stable/api/
+https://stackoverflow.com/questions/18786912/get-output-from-the-logging-module-in-ipython-notebook
+
+
+https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
+
+====================
+
+with opening file
+https://www.tutorialsteacher.com/python/python-read-write-file
+
+
+binary file
+https://www.google.com/search?q=binary+file+meaning&oq=binary+file+meaning&aqs=chrome.0.0l8.3103j1j7&sourceid=chrome&ie=UTF-8
+
+==============================
+
+text reader in general
+
+https://textract.readthedocs.io/en/latest/
+
+==============================
+
+
+backslash string errors
+
+https://stackoverflow.com/questions/301068/quoting-backslashes-in-python-string-literals
+
+
+============================
+
+hyperlinks in python
+https://stackoverflow.com/questions/13452410/creating-hyperlinks-in-python
+
+https://stackoverflow.com/questions/40475757/how-to-extract-the-url-in-hyperlinks-from-a-docx-file-using-python
+
+========================
+
+operations
+
+https://www.tutorialsteacher.com/python/python-read-write-file
+
+======================
+CSV file
+
+https://stackoverflow.com/questions/53325573/python-getting-exact-cell-from-csv-file
+
+=====================
+
+reading normal files
+
+https://www.guru99.com/reading-and-writing-files-in-python.html
+
+====================
+
+"cls" to clear command prompt
+
+
+==================
+
+regular expressions
+
+
+https://docs.python.org/3/library/re.html
+
+================
+
+flat list
+https://stackoverflow.com/questions/952914/how-to-make-a-flat-list-out-of-list-of-lists
+
+=============
+
+check files without file extentions
+
+https://stackoverflow.com/questions/10937350/how-to-check-type-of-files-without-extensions-in-python/24433682
+
+
+
+===============
+
+check url in python
+https://www.geeksforgeeks.org/python-check-url-string/
+
+
+https://stackoverflow.com/questions/46255086/a-checker-of-links-in-python
+
+
+https://stackoverflow.com/questions/720113/find-hyperlinks-in-text-using-python-twitter-related
+
+
+================
+
+remove duplicates form a list
+https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists
+
+sites
+
+https://www.geeksforgeeks.org/iterate-over-a-set-in-python/
+
+
+=================
+
+aws lifecycle configuration
+
+https://www.geeksforgeeks.org/iterate-over-a-set-in-python/
+
+====================
+
+olefile to read word docs
+
+https://olefile.readthedocs.io/en/latest/Howto.html?fbclid=IwAR0UGbN5U6H_Ei-sKSTqurEUYed_FdQ6dM1CCqcS8CZOJsUKemjVaE5_u28#
+
+==================
+
+tika to convert
+https://www.google.com/search?q=python+intall+tika&oq=python+intall+tika&aqs=chrome..69i57j0l7.4762j0j7&sourceid=chrome&ie=UTF-8
+
+
+https://stackoverflow.com/questions/39418620/extracting-text-from-multiple-powerpoint-files-using-python
+
+===================
+
+zip file way
+https://www.google.com/search?q=what+is+a+zip+archive&oq=what+is+a+zip+ar&aqs=chrome.1.69i57j0l7.5697j0j7&sourceid=chrome&ie=UTF-8
+
+
+
+
+=================
+
+https://docs.python.org/3/library/zipfile.html
+
+
+
+==============
+
+pptx relationship hyperlinks, source code
+
+==============
+
+
+
+https://www.crummy.com/software/BeautifulSoup/bs3/documentation.html#Parsing%20a%20Document
+
+beautiful soap
+
+===============
+
+https://support.microsoft.com/en-ie/office/extract-files-or-objects-from-a-powerpoint-file-85511e6f-9e76-41ad-8424-eab8a5bbc517?ui=en-us&rs=en-ie&ad=ie
+
+
+
+
+================
+
+how to count files in a folder
+
+https://www.digitalcitizen.life/4-ways-count-number-folders-and-files-inside-folder
+
+
+================
+
+zipfile
+
+https://towardsdatascience.com/how-to-extract-data-from-ms-word-documents-using-python-ed3fbb48c122
+
+https://github.com/nmolivo/tesu_scraper/blob/master/Python_Blogs/01_extract_from_MSWord.ipynb
+
+https://www.google.com/search?sxsrf=ALeKk00y-sZpTIkeWw1dl1tqrmlBgg7ANw%3A1591101686228&ei=9kjWXrnCDYqr1fAPqruIgAQ&q=import+zipfile+python&oq=import+zipfile+python&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgYIABAWEB4yCAgAEBYQChAeMgYIABAWEB46BAgAEEc6BwgAEBQQhwI6BAgAEAo6BQghEKABUO4JWMkZYMwbaAFwAXgAgAFWiAGUBJIBATiYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwi5lbzWk-PpAhWKVRUIHaodAkAQ4dUDCAw&uact=5
+
+https://pymotw.com/2/zipfile/
+
+https://www.geeksforgeeks.org/working-zip-files-python/
+
+=============
+
+write to a text file
+
+https://cmdlinetips.com/2012/09/three-ways-to-write-text-to-a-file-in-python/#:~:text=Here%20is%20three%20ways%20to,a%20new%20file%20to%20write.
+
+
+
+================
+
+parse through a docx
+
+https://stackoverflow.com/questions/22756344/how-do-i-extract-data-from-a-doc-docx-file-using-python
+
+============
+
+python mammoth
+
+https://medium.com/@kelvintran/convert-word-to-html-using-python-with-python-mammoth-5590b96b434f
+
+https://github.com/mwilliamson/python-mammoth
+
+
+===================
+
+filer excel string
+
+https://www.extendoffice.com/documents/excel/2722-excel-filter-based-on-substring.html
+
+
+==============
+
+tricks for python 
+
+https://towardsdatascience.com/10-smooth-python-tricks-for-python-gods-2e4f6180e5e3
+
+
+
+=========================
+
+pdf text extraction
+
+https://support.idrsolutions.com/hc/en-us/articles/360030090431-Extract-Unstructured-text-with-a-rectangle-from-PDF-files
+
+https://pymupdf.readthedocs.io/en/latest/
+
+https://stackoverflow.com/questions/60202963/extract-text-in-a-rectangle-from-pdf-python
+
+https://www.google.com/search?q=python+extract+rectangle+from+pdf&oq=python+extract+rectangle+from+pdf&aqs=chrome..69i57.20671j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.pdftron.com/documentation/samples/py/TextExtractTest/
+
+https://stackoverflow.com/questions/55583510/extract-pdf-text-within-bounding-box-directly-into-python
+
+https://www.google.com/search?q=python+pdf+search+%2Frect&oq=python+pdf+search+%2Frect&aqs=chrome..69i57j33.14382j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.google.com/search?sxsrf=ALeKk00es3_vEnlC9EpgwqNNhGXlb5tN4Q:1593433834640&q=pdfminer&sa=X&ved=2ahUKEwiE477Ng6fqAhV0QRUIHc32CQ8Q1QIoAHoECAsQAQ&biw=871&bih=952
+
+
+https://stackoverflow.com/questions/22898145/how-to-extract-text-and-text-coordinates-from-a-pdf-file
+
+https://stackoverflow.com/questions/26494211/extracting-text-from-a-pdf-file-using-pdfminer-in-python
+
+
+https://stackoverflow.com/questions/27744210/extract-hyperlinks-from-pdf-in-python
+
+
+
+https://pdfminer-docs.readthedocs.io/programming.html
+
+https://pypi.org/project/uuid/
+
+https://pypi.org/project/pdftotree/
+
+https://github.com/euske/pdfminer/issues/172
+
+https://stackoverflow.com/questions/41264500/transforming-pdf-to-html-in-python
+
+https://www.google.com/search?sxsrf=ALeKk02W4_Wi9ilx_6Rb5nnbnojeHhdXUw%3A1592914874818&ei=uvPxXrShMcC01fAPloGkwA8&q=python+pdf+to+html&oq=python+pdf+to+html&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgIIADIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgQIIxAnOgQIABBDOgUIABCxAzoFCAAQkQI6BwgAELEDEEM6BwgAEBQQhwI6BwgjELECECc6BAgAEAo6BwgjELACECc6BAgAEA06CAgAEBYQChAeUOufAVjJygFgg84BaAZwAHgAgAFCiAHCCZIBAjI0mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwi05pSq9pfqAhVAWhUIHZYACfgQ4dUDCAw&uact=5
+
+
+
+https://pypi.org/project/pdftotree/
+
+https://www.blog.pythonlibrary.org/2018/05/03/exporting-data-from-pdfs-with-python/
+
+https://pdftables.com/blog/pdf-to-excel-with-python
+
+
+https://www.blog.pythonlibrary.org/2018/04/10/extracting-pdf-metadata-and-text-with-python/
+
+https://thispointer.com/python-how-to-get-list-of-files-in-directory-and-sub-directories/
+
+
+https://stackoverflow.com/questions/22898145/how-to-extract-text-and-text-coordinates-from-a-pdf-file
+
+https://github.com/pdfminer/pdfminer.six/issues/167
+
+https://stackoverflow.com/questions/27744210/extract-hyperlinks-from-pdf-in-python
+
+https://www.google.com/search?q=python+extract+text+and+hyperlinks+from+pdf&oq=python+extract+text+and+hyper&aqs=chrome.2.69i57j33l3.8479j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.blog.pythonlibrary.org/2018/04/10/extracting-pdf-metadata-and-text-with-python/
+
+
+https://dzone.com/articles/extracting-pdf-metadata-and-text-with-python
+
+
+https://recalll.co/ask/v/topic/Extract-hyperlinks-from-PDF-in-Python/5543808104ce027f468bac7d
+
+https://recalll.co/?q=Extract%20hyperlinks%20from%20PDF%20in%20Python&type=code
+
+https://www.google.com/search?sxsrf=ALeKk0038iyAzqKTIZpXaqii5GMXqu0BpQ%3A1592474192048&ei=UDrrXprIAvKf1fAPhqWxuAo&q=python+pdf+extract+hyperlinks+text&oq=python+pdf+extract+hyperlinks+text&gs_lcp=CgZwc3ktYWIQAzIICCEQFhAdEB46BAgAEEc6BggAEBYQHlCKHFj0LmDFMmgAcAN4AIABVYgB6QKSAQE1mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwiasJ_UjIvqAhXyTxUIHYZSDKcQ4dUDCAw&uact=5
+
+
+=============
+
+{'/Type': '/Page', '/Parent': IndirectObject(2, 0), '/Resources': {'/ExtGState': {'/GS5': IndirectObject(5, 0), '/GS8': IndirectObject(8, 0)}, '/Font': {'/F1': IndirectObject(6, 0)}, '/ProcSet': ['/PDF', '/Text', '/ImageB', '/ImageC', '/ImageI']}, '/Annots': [IndirectObject(9, 0), IndirectObject(10, 0)], '/MediaBox': [0, 0, 960, 540], '/Contents': IndirectObject(4, 0), '/Group': {'/Type': '/Group', '/S': '/Transparency', '/CS': '/DeviceRGB'}, '/Tabs': '/S', '/StructParents': 0}
+
+Notebooks
+===============

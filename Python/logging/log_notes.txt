@@ -19,3 +19,57 @@ Due to a more serious problem, the software has not been able to perform some fu
 CRITICAL
 
 A serious error, indicating that the program itself may be unable to continue running.
+
+
+https://stackoverflow.com/questions/4934806/how-can-i-find-scripts-directory-with-python
+
+path = os.path.dirname(os.path.realpath(__file__))
+print(path)
+
+get file directory
+
+=====================
+
+https://docs.python.org/3/library/logging.html
+LogRecord attributes
+
+	
+%(asctime)s - 	
+Human-readable time when the LogRecord was created. By default this is of the form ‘2003-07-08 16:49:45,896’ (the numbers after the comma are millisecond portion of the time).
+	
+%(created)f - Time when the LogRecord was created (as returned by time.time()).
+
+%(filename)s - Filename portion of pathname.
+
+	
+%(funcName)s - 	
+Name of function containing the logging call.
+
+	
+%(levelname)s - Text logging level for the message ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL').
+
+	
+%(message)s - The logged message, computed as msg % args. This is set when Formatter.format() is invoked.
+
+
+
+=========================
+
+get the time and Detailed
+https://www.programiz.com/python-programming/datetime/current-datetime
+
+from datetime import datetime
+
+# datetime object containing current date and time
+now = datetime.now()
+ 
+print("now =", now)
+
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+print("date and time =", dt_string)
+
+from datetime import date
+
+today = date.today()
+print("Today's date:", today)
