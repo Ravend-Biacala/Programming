@@ -1,0 +1,244 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Flexbox test</title>
+    <style>
+        body, h1, h2, h3 {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        ul {list-style: none;}
+
+
+        .content {
+            display: flex;
+        }
+        .sidebar {
+            background-color: #f0eeee;
+            flex: 0 0 20%;
+
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .header {
+            height: 4rem;
+            background-color: #333;
+            border-bottom: #f4f2f2;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .head-items {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .head-items:hover { background-color: #7e808b; } /* CSS link hover (grey) */
+
+
+        .nav-title { font-size: 1.5rem; text-align: center; padding: .5rem 0 .5rem 0;}
+        .nav-ul { margin: 0 0 0 0; padding: 0 0 0 0; font-size: .8rem;}
+        .nav-li { padding: 0 0 0 1.1rem}
+        .nav-li:hover { background-color: #fff; } /* CSS link hover (grey) */
+
+        .dropdown-btn {
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            border: none;
+            background: none;
+            cursor: pointer;
+            outline: none;
+            text-align: left;
+            padding: .5rem 0 .5rem .7rem;
+            margin: 0 0 0 0;
+            font-size: 1rem;
+        }
+        .dropdown-btn:hover { background-color: #fff; } /* CSS link hover (grey) */
+
+        .dropdown-container {
+            display: none;
+        }
+
+        .main-content {
+
+            /* background-color: #faf9f9; */
+            background-color: #fff;
+
+            height: 80rem;
+            padding: 0 5% 0 5%;
+
+
+            flex: 1; /* grow as much as it can is flex 1 */
+
+        }
+        
+        .content-title-box {text-align: center; justify-content: center;}
+        .content-name { font-size: 2.25rem; font-weight: 300;}
+
+        .content-member-box{
+            display: flex; 
+            text-align: center; 
+            justify-content: center; 
+            margin-bottom: 2rem;
+        }
+        .member-name{ margin:0 1rem 0 0; padding:0; font-size: 1.5rem;}
+        
+        .member-scrollbox {
+            max-width: 30rem; 
+            height:2.5rem; 
+            border:1px solid black; 
+            /* overflow-x: scroll; 
+            overflow-y:hidden; 
+            white-space:nowrap; */
+            overflow: scroll;
+        }
+
+        .member-info {
+            height: 40rem;
+            width: 100%;
+            /* display: flex; */
+            background-color: #f0eeee;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: space-around;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+
+            <a class="head-item1 head-items" href="#">Home</a>
+            <a class="head-items" href="#">News</a>
+            <a class="head-items" href="#">Contact</a>
+            <a class="head-item4 head-items" href="#">About</a>
+
+    </header>
+
+    <div class="content">
+        <nav class="sidebar">
+            <h3 class="nav-title">Groups</h3>
+                <button class="dropdown-btn">CTG DL</button>
+                <div class="dropdown-container">
+                    <ul class="nav-ul">
+                        <li class="nav-li">
+                            <input type="radio" id="" name="" value="">
+                            <label for="">CTG DL</label>
+                        </li>
+                        <li class="nav-li">
+                            <input type="radio" id="" name="" value="">
+                            <label for="">CTG DL</label>
+                        </li>
+        
+                        <li class="nav-li">
+                            <input type="radio" id="" name="" value="">
+                            <label for="">CTG DL</label>
+                        </li>
+        
+                        <li class="nav-li">
+                            <input type="radio" id="" name="" value="">
+                            <label for="">CTG DL</label>
+                        </li>
+        
+                        <li class="nav-li">
+                            <input type="radio" id="" name="" value="">
+                            <label for="">CTG DL</label>
+                        </li>
+                    </ul>
+                </div>
+            
+        </nav>
+
+        <main class="main-content">
+
+            <div class="content-title-box">
+                <h1 class="title-name">Group: CGT DL </h1>
+            </div>
+            <div class="content-member-box">
+                <h1 class="member-name"> Members </h1>
+                <div>
+                    <div class="member-scrollbox">
+                    Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.
+                    </div>    
+                </div>
+            </div>
+            
+            <div class="member-info">
+                <div class="heading">
+                    <h1 class="member-heading">Members</h1>
+                    <h1 class="corp-id-heading">Corp ID</h1>
+                </div>
+
+                <div class="member-list">
+                    <table cellspacing="0" cellpadding="0" border="0" width="325">
+                        <tr>
+                          <td>
+                             <table cellspacing="0" cellpadding="1" border="1" width="300" >
+                               <tr style="color:white;background-color:grey">
+                                  <th>Header 1</th>
+                                  <th>Header 2</th>
+                               </tr>
+                             </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                             <div style="width:320px; height:80px; overflow:auto;">
+                               <table cellspacing="0" cellpadding="1" border="1" width="300" >
+                                    <tr>
+                                    <td>new item</td> <td>new item</td>
+                                    </tr>
+                                    <tr>
+                                    <td>new item</td> <td>new item</td>
+                                    </tr>
+                                    <tr>
+                                    <td>new item</td> <td>new item</td>
+                                    </tr>
+                                 
+                                 
+                               </table>  
+                             </div>
+                          </td>
+                        </tr>
+                    </table> 
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+        
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+          } else {
+          dropdownContent.style.display = "block";
+          }
+          });
+        }
+        </script>
+
+</body>
+</html>

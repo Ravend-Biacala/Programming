@@ -1,0 +1,43 @@
+
+
+scroll bar
+
+https://stackoverflow.com/questions/13925284/horizontal-scrollbar
+
+https://stackoverflow.com/questions/3308365/css-no-text-wrap
+
+https://stackoverflow.com/questions/43700866/html-horizontal-scrolling-on-overflow-text-on-code-element
+
+
+
+===================
+
+drop down function
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_dropdown
+
+
+==============
+
+center items
+
+https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox#:~:text=The%20best%20move%20is%20to,text%20inside%20of%20its%20parent.&text=Use%20align%2Ditems%20instead%20of,added%20flex%2Ddirection%20to%20column%20.
+
+https://www.w3schools.com/howto/howto_css_center-vertical.asp
+
+
+===================
+
+example website 
+
+https://dev.to/llorentegerman/building-a-ui-from-scratch-based-on-a-design-with-reactjs-3l1e
+
+=============
+
+scroll bar try to shorten
+
+http://jsfiddle.net/ZXVA5/
+
+http://jsfiddle.net/ZXVA5/1/
+
+https://stackoverflow.com/questions/15469437/responsive-html-scrolling-box

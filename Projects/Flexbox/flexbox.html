@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Flexbox test</title>
+    <style>
+        body, h3 {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        ul {list-style: none;}
+        .header {
+            height: 4rem;
+            background-color: #333;
+            border-bottom: #f4f2f2;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .content {
+            display: flex;
+        }
+        .sidebar {
+            background-color: #f0eeee;
+            flex: 0 0 20%;
+
+            display: flex;
+            flex-direction: column;
+
+
+        }
+        .main-content {
+
+            /* background-color: #faf9f9; */
+            background-color: red;
+
+            height: 80rem;
+            
+            flex-shrink: 1; /* grow as much as it can is flex 1 */
+            
+        }
+
+        .head-items {
+            text-decoration: none;
+            color: #fff;
+        }
+        .head-items:hover { color: #7e808b; } /* CSS link hover (grey) */
+
+        .nav-title { font-size: 1.5rem; text-align: center;}
+        .nav-ul { background-color: red; margin: 0 0 0 0; padding: 0 0 0 0; font-size: 1rem;}
+        .nav-li { background-color: green;}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+
+            <a class="head-item1 head-items" href="#">Home</a>
+            <a class="head-items" href="#">News</a>
+            <a class="head-items" href="#">Contact</a>
+            <a class="head-item4 head-items" href="#">About</a>
+
+    </header>
+
+    <div class="content">
+        <nav class="sidebar">
+            <ul class="nav-ul">
+                <h3 class="nav-title">Groups</h3>
+                <li class="nav-li">
+                    <input type="radio" id="" name="" value="">
+                    <label for="">CTG DL</label>
+                </li>
+                <li class="nav-li">
+                    <input type="radio" id="" name="" value="">
+                    <label for="">CTG DL</label>
+                </li>
+
+                <li class="nav-li">
+                    <input type="radio" id="" name="" value="">
+                    <label for="">CTG DL</label>
+                </li>
+
+                <li class="nav-li">
+                    <input type="radio" id="" name="" value="">
+                    <label for="">CTG DL</label>
+                </li>
+
+                <li class="nav-li">
+                    <input type="radio" id="" name="" value="">
+                    <label for="">CTG DL</label>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            memberscontent
+        </main>
+    </div>
+
+</body>
+</html>

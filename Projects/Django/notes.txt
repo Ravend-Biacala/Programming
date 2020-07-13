@@ -1,0 +1,49 @@
+links
+
+
+https://coolors.co/palettes/trending
+
+
+=====================
+
+website homepage design template
+
+https://www.google.com/search?q=website+homepage+design+template&sxsrf=ALeKk01H83qsJVo9Q8eX9mUoOCo6pzjFoA:1594048828159&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi3o6DR9rjqAhX9VBUIHR4hCI0Q_AUoAXoECA0QAw&biw=871&bih=907
+
+
+====================
+
+basic html reference
+
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+
+===================
+
+look back
+
+lec 21 : radio selections
+
+lec 23 : submit and redirects to another page
+
+lec 28 : adjacent siblings
+
+lec 30: specificity 
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+    https://designshack.net/articles/css/what-the-heck-is-css-specificity/
+
+lec 41 : important border control 2:45(margin)
+
+=======================
+
+bootstrap cdn
+
+
+=======================
+
+css 
+
+input {
+    border: 2px solid rgb(144,0,0)
+}
