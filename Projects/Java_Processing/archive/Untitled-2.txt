@@ -1,0 +1,103 @@
+float beginX = 20.0; // Initial x-coordinate
+float beginY = 10.0; // Initial y-coordinate
+float endX = 70.0; // Final x-coordinate
+float endY = 80.0; // Final y-coordinate
+float distX; // X-axis distance to move
+ float distY; // Y-axis distance to move
+float x = 0.0; // Current x-coordinate
+float y = 0.0; // Current y-coordinate
+float step = 0.02; // Size of each step (0.0 to 1.0)
+float pct = 0.0; // Percentage traveled (0.0 to 1.0)
+ void setup() {
+ size(100, 100);
+ noStroke();
+ distX = endX - beginX;
+ distY = endY - beginY;
+}
+void draw() {
+ fill(0, 12);
+ rect(0, 0, width, height);
+ pct += step;
+ if (pct < 1.0) {
+ x = beginX + (pct * distX);
+ y = beginY + (pct * distY);
+ }
+ fill(255);
+ ellipse(x, y, 20, 20);
+}
+
+
+==============================
+
+ PFont font;
+void setup() {
+ size(100, 100);
+ font = createFont("Arial", 16);
+ textFont(font);
+ textAlign(CENTER);
+ }
+void draw() {
+ background(0);
+ int s = second();
+ int m = minute();
+ int h = hour();
+ // The nf() function spaces the numbers nicely
+ String t = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
+ text(t, 50, 55);
+}
+
+
+===========================
+
+ PFont font;
+String s = "AREA";
+float angle = 0.0;
+void setup() {
+ size(100, 100);
+ font = createFont("Arial", 48);
+ textFont(font);
+ fill(0);
+}
+void draw() {
+ background(204);
+ angle += 0.05;
+ for (int i = 0; i < s.length(); i++) {
+ float c = sin(angle + i/PI);
+ textSize((c + 1.0) * 15 + 10);
+ text(s.charAt(i), i*20, 60);
+ }
+}
+
+
+
+ PFont font;
+String s = "AREA";
+float angle = 0.0;
+void setup() {
+ size(100, 100);
+ font = createFont("Arial", 48);
+ textFont(font);
+ fill(0);
+}
+void draw() {
+ background(204);
+ angle += 0.05;
+ for (int i = 0; i < s.length(); i++) {
+ float c = sin(angle + i/PI);
+ textSize((c + 1.0) * 15 + 10);
+ text(s.charAt(i), i*20, 60);
+ }
+}
+
+
+//======================
+
+//size(500,500);
+
+//background(56, 90, 94);
+//strokeWeight(12);
+//stroke(242, 204, 47, 102); // More transparency
+//line(30, 20, 50, 80);
+//stroke(242, 204, 47, 204); // Less transparency
+//line(50, 20, 70, 80);
+//println(4/3);

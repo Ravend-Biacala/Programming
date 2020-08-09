@@ -1,0 +1,159 @@
+
+//size(500, 500);
+//ellipse(50, 50, 50, 50);
+//ellipse(450, 450, 50, 50);
+//ellipse(50, 450, 50, 50);
+//ellipse(450, 50, 50, 50);
+//===================
+
+//rectMode(CENTER);
+//fill(255);
+//rect(500/2, 500/2, 50, 50);
+
+//==============
+//fill(0);
+//fill((random(0, 255)),(random(0, 255)),(random(0, 255)));
+//ellipse(450, 450, 50, 100);
+
+//======================
+
+//void setup() {
+//  size(600, 600);
+//}
+
+//void draw() {
+//  //ellipse(mouseX, mouseY, 100, 100);
+//  //ellipse(100, 100, mouseX, mouseY);
+//  ellipse(mouseY, mouseX, mouseY, mouseX);
+//}
+
+// ====================
+
+//void setup() {
+//  background(188, 209, 40);
+//  size(600, 600);
+//}
+
+//void draw() {
+//  rectMode(CENTER);
+//  strokeWeight(4);
+//  stroke(255);
+//  rect(500/2, 500/2, 50, 50);
+  
+//  fill(167, 167, 167);
+//  rect((width - mouseX), (height - mouseY), 200, 100);
+//  fill(0);
+//  rect(mouseX, (height - mouseY), 200, 100);
+  
+//}
+
+//======================
+
+//PImage myimage;
+//void setup() {
+//  size(800, 600);
+//}
+
+//void draw() {
+//  rectMode(CENTER);
+//  strokeWeight(10);
+//  stroke(0);
+//  rect(500/2, 500/2, 50, 50);
+//}
+
+//=====================
+
+//void setup() {
+//  size(500, 500);
+//}
+
+//void draw() {
+//  rectMode(CENTER);
+//  strokeWeight(100);
+//  stroke(0);
+//  rect(500/2, 500/2, width, height);
+//}
+
+//===============
+//int x = 200;
+//int y = 200;
+
+//void setup() {
+//  size(600, 600); // x, y
+//  background(150);
+//}
+
+//void draw() {
+
+//  ellipse(width/2, height/2, x, y);
+
+//  if (mousePressed == true) {
+//    x++;
+//    y++;
+//    ellipse(width/2, height/2, x, y);
+//  }
+  
+//  if (x > 600 || y > 600) {
+//    background(150);
+//    x = 200;
+//    y = 200;
+
+//  }
+//}
+
+//==============================
+
+//float ballXpos = 600;
+
+//void setup() {
+//  size(800, 800);
+//}
+
+//void draw() {
+//  background(255);
+  
+//  ellipse(ballXpos, height/2, 100, 100);
+  
+//  if (keyPressed) {
+//    if (key == 'd') {
+//      ballXpos += 4;
+//    }
+//  }
+//}
+
+//==============
+
+//float ballXpos = 600;
+
+//void setup() {
+//  size(800, 800);
+//}
+
+//void draw() {
+//  //background(0);
+  
+//  ellipse(ballXpos, height/2, 100, 100);
+  
+//  if (mousePressed) {
+//    if (mouseButton == LEFT) {
+//      background(0, 0, 255);
+//    }
+//  }
+  
+  
+//  if (keyPressed) {
+//    if (key == 'd') {
+//      ballXpos += 4;
+//    }
+//  }
+  
+//  if (ballXpos > 800) {
+//    ballXpos = 600;
+//    background(0);
+//  }
+
+//}
+
+//============================
+
+

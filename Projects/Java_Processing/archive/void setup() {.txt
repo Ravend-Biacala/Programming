@@ -1,0 +1,17 @@
+void setup() {
+  size(800, 600);
+}
+
+void draw() {
+  background(0);
+
+  if (keyPressed) { // change if key is pressed
+    fill(49,49,49);
+  }
+  rectMode(CENTER);
+  rect(mouseX, mouseY, 100, 100);
+  
+  if (mousePressed) { // change if mouse is pressed
+      background(0, 0, 255);
+  }
+}

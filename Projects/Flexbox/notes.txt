@@ -1,3 +1,9 @@
+udemy links
+
+https://github.com/jonasschmedtmann/advanced-css-course/blob/master/Trillo/final/index.html
+https://github.com/jonasschmedtmann/advanced-css-course/blob/master/Trillo/final/css/style.css
+
+
 
 
 scroll bar
@@ -41,3 +47,120 @@ http://jsfiddle.net/ZXVA5/
 http://jsfiddle.net/ZXVA5/1/
 
 https://stackoverflow.com/questions/15469437/responsive-html-scrolling-box
+
+=================
+
+full height fix
+
+https://softauthor.com/css-how-to-make-a-div-full-screen/
+
+https://stackoverflow.com/questions/15469437/responsive-html-scrolling-box
+
+==================
+
+OG website template
+
+https://dev.to/llorentegerman/building-a-ui-from-scratch-based-on-a-design-with-reactjs-3l1e
+
+https://github.com/jonasschmedtmann/advanced-css-course/blob/master/Trillo/final/css/style.css
+
+https://github.com/jonasschmedtmann/advanced-css-course/blob/master/Trillo/final/index.html
+
+=======================
+
+css testing website
+
+http://jsfiddle.net/ZXVA5/
+
+http://jsfiddle.net/ZXVA5/1/
+
+================
+
+dropdowns
+
+https://www.w3schools.com/css/css_dropdowns.asp
+
+================
+
+tables
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_table_responsive
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_table_responsive
+
+http://jsfiddle.net/nyCKE/6302/
+
+https://medium.com/@vembarrajan/html-css-tricks-scroll-able-table-body-tbody-d23182ae0fbc
+
+===============
+
+normal flexbox's
+
+https://www.w3schools.com/css/css3_flexbox.asp
+
+https://www.google.com/search?q=css+scrollable+table&oq=css+scrollab&aqs=chrome.2.0j69i57j0l6.5416j0j7&sourceid=chrome&ie=UTF-8
+
+====================
+
+overflow box's 
+
+https://www.youtube.com/watch?v=UKSn8GbSguE
+
+https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_hor_scroll
+
+https://www.google.com/search?sxsrf=ALeKk00oUKOhP2zzS0Scb_dJl-vQzQOrxQ%3A1594654032947&ei=UH0MX7W3OZig1fAPzLeD0AE&q=text+horizontal+scroll+flexbox&oq=text+horizontal+scroll+flexbox&gs_lcp=CgZwc3ktYWIQAzIICCEQFhAdEB4yCAghEBYQHRAeOgQIABBHOgIIADoGCAAQFhAeOggIABAWEAoQHjoFCCEQoAFQ7LlsWMfRbGDZ1mxoAnADeACAAVeIAYQGkgECMTCYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwi1n7GZxcrqAhUYUBUIHczbABoQ4dUDCAw&uact=5
+
+https://www.freecodecamp.org/news/horizontal-scrolling-using-flexbox-f9d16817f742/
+
+https://css-tricks.com/pure-css-horizontal-scrolling/
+
+https://www.quackit.com/html/codes/horizontal_scroll.cfm
+
+https://www.html.am/html-codes/scrollboxes/html-scrollbox.cfm
+
+https://stackoverflow.com/questions/47911669/forcing-horizontal-scrollbar-and-all-child-divs-in-one-line
+
+https://medium.com/@tommybernaciak/css-horizontal-scroll-25625e65af9
+
+https://css-tricks.com/pure-css-horizontal-scrolling/
+=================
+
+clean the css formatting
+
+https://www.cleancss.com/css-beautify/
+
+
+========================
+
+sidebar responsive
+
+https://www.google.com/search?q=flexbox+off+canvas+menu&oq=Flexbox+Off+Canvas+Menu&aqs=chrome.0.0l2.1375j0j7&sourceid=chrome&ie=UTF-8
+
+https://codepen.io/zomigi/pen/dmaCi
+
+
+https://www.youtube.com/watch?v=wpGNFGqNfdU
+
+https://codemyui.com/responsive-sidebar-menu/
+
+
+https://medium.com/level-up-web/20-responsive-navigation-solutions-examples-codes-21644390afeb
+
+https://codepen.io/peter1red/pen/xGjgYz
+
+=============================
+cool links
+
+https://codepen.io/markcaron/pen/pPZVWO
+
+
+https://mark.ie/blog/web-development/simple-flexbox-layout-for-sidebar-main-content-area
+
+https://gist.github.com/johnlaine1/4a97669b8b9dfeea267f0f52a32c930f
+
+
+https://www.cssscript.com/css3-only-off-canvas-navigation-with-animated-toggle-icon/
+
+
+https://www.w3schools.com/howto/howto_js_off-canvas.asp

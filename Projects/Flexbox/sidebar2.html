@@ -1,0 +1,112 @@
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+        margin: 0;
+        background-color: #f9f9f9;
+        }
+
+        #page_contents {
+        padding: 4.5rem 1rem 1rem 1rem;
+        height: 100vh;
+        margin: 0 auto;
+        max-width: 64pc;
+        display: flex;
+        align-items: stretch;
+        }
+
+        #page {
+        clear: left;
+        }
+
+        nav {
+        flex-basis: 240px;
+        flex-grow: 0;
+        background: #fee;
+        padding: 1rem;
+        }
+
+        #content {
+        flex-grow: 1;
+        background: #eff;
+        padding: 1rem;
+        }
+
+        .collapse-icon {
+        display: none!important;
+        }
+
+        @media only screen and (max-width: 767px) {
+        .collapse-icon {
+            /* change this to whatever your header items should be */
+            display: table-cell!important;
+        }
+        nav {
+            width: 260px!important;
+            transform: translate3d(-260px,0,0);
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            overflow-y: scroll;
+        }
+        }
+
+        .nav_open #page, .nav_open header {
+        transform: translate3d(280px,0,0);
+        }
+        .nav_open #page, .nav_open header,
+        #page, header {
+        transition: transform .15s cubic-bezier(.2,.3,.25,.9);
+        }
+
+        header {
+        position: fixed;
+        width: 100vw;
+        z-index: 101;
+        }
+
+        nav ul li {
+        margin-left: 2em;
+        }
+
+
+    </style>
+  <body>
+
+    <header class="title-bar">
+      <ul class="menu">
+        <li class="collapse-icon"><button onclick="open_nav();" class="menu-icon"></button></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+      </ul>
+    </header>
+
+    <div id="page">
+      <div id="page_contents">
+        <nav>
+          <h3>Sidebar</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+          </ul>
+        </nav>
+
+        <div id="content">
+          <h2>Main Content</h2>
+          <p>Hello World</p>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+        function open_nav() {
+            $("body").toggleClass("nav_open");
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+ctrl + t
+
+page 14 unit 1
+
+==================
+
+mouseX and mouseY are what is called ‘built in variables’. We’ll deal more with
+variables in Unit 2. Other built in variables include width and height
+
+===========
+
+
+frameRate() adjust the
+speed the circles appear
+
+noStroke() gets rid of the
+circle’s outside
+
+background(188, 209, 40);
+in void draw this sets the background colour
+
+rectMode(CENTER) makes
+rectangles behave as ellipses do
+
+strokeWeight() thickness of the
+stroke (object outline)
+
+stroke() colour of the stroke/outline
+
+
+mousePressed
+
+keyCode == up
+
+
+pg 295 
+
+void setup() {
+ size(700, 100);
+ stroke(255, 102);
+}
+void draw() {
+ background(0);
+ for (int i = 0; i < width; i += 6) {
+ float r = random(-10, 10);
+ strokeWeight(abs(r));
+ line(i-r, 100, i+r, 0);
+ }
+}
+
+pg 285
+
+
+pg 305 controlling motion
+
+
+pg 305 movement
